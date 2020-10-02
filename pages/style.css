@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    /* background: #F6511D; */
+    border-bottom: 2px solid #F6511D;
+}
+
+
+#nav-container {
+    width: 85vw;
+    height:180px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#nav-container ul {
+    display: flex;
+    list-style-type: none;
+    width: 45vh;
+    justify-content: space-around;
+}
+
+#nav-container ul > li > a {
+    font-size: 18px;
+}
+
+main {
+    margin-top: 1em;
+    height: 63vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#logo-carretel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 15vh;
+    justify-content: space-between;
+}
+
+#logo-carretel img {
+    height: 100px;
+}
+
+#logo-carretel h1 {
+    font-size: 24px;
+}
+
+main section {
+    width: 85vw;
+    height: 27vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.list-films{
+    height: 19vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;}
+
+.list-card{
+    width: 14vw;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;}
+
+#div-button {
+    width: 85vw;
+    height: 15vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#div-button button {
+    width: 180px;
+    height: 58px;
+    font-size: 20px;
+    border: none;
+    background: #F6511D;
+    text-align: center;
+    color: white;
+
+}
+
+
+footer {
+    display: flex;
+    background: #F6511D;
+    height: 250px;
+    justify-content: center;
+    align-items: center;
+}
+
+footer hr {
+    margin-right: 2em;
+    margin-left: 2em;
+    height: 200px;
+    border: 1px solid #fff;
+}
+
+.info-contact{
+    width: 451px;
+    height: 147px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #fff;}
+
+.div-image-films{height: 147px;}
